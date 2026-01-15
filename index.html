@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PawHome – Dog Adoption Agency</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="dark">
+    <!-- NAV -->
+    <nav>
+      <div class="nav-container">
+        <span class="logo">🐾 PawHome</span>
+
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <div class="nav-right">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Why Us</a></li>
+            <li><a href="#dogs">Dogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle theme"
+          >
+            🌙
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header>
+      <h1>Find Your Furry Friend</h1>
+      <p>
+        PawHome helps rescued dogs find loving, lifelong homes through care,
+        transparency, and compassion.
+      </p>
+    </header>
+
+    <main>
+      <!-- ABOUT -->
+      <section id="about">
+        <!-- Section intro (OUTSIDE card) -->
+        <span class="section-badge">Our Mission</span>
+        <h2>About PawHome</h2>
+        <p class="section-intro">
+          At PawHome, we believe adoption is more than finding a dog — it’s
+          about creating lifelong bonds. Our mission is to rescue, rehabilitate,
+          and responsibly rehome dogs while ensuring adopters feel confident,
+          supported, and prepared every step of the way.
+        </p>
+
+        <!-- Card content -->
+        <div class="card about-card">
+          <p>
+            We work closely with shelters and foster families to ensure each dog
+            receives medical care, behavioral support, and a carefully matched
+            home.
+          </p>
+
+          <div class="about-stats">
+            <div>
+              <strong>500+</strong>
+              <span>Dogs Adopted</span>
+            </div>
+            <div>
+              <strong>120+</strong>
+              <span>Volunteers</span>
+            </div>
+            <div>
+              <strong>98%</strong>
+              <span>Success Rate</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section id="features">
+        <span class="section-badge">Why Choose Us</span>
+        <h2>Why Adopt From PawHome?</h2>
+        <p class="section-intro">
+          We focus on responsible adoption, long-term success, and the wellbeing
+          of every dog and adopter.
+        </p>
+
+        <div class="features-grid images">
+          <article class="feature-card">
+            <img
+              src="https://images.unsplash.com/photo-1644675272883-0c4d582528d8?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Veterinary care"
+            />
+            <h3>Full Veterinary Care</h3>
+            <p>
+              Every dog receives complete health checks, vaccinations, and
+              medical treatment before adoption.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <img
+              src="https://images.unsplash.com/photo-1596278852720-141ba859bbbf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Dog training"
+            />
+            <h3>Behavioral Training</h3>
+            <p>
+              Our dogs are assessed and trained by professionals to help them
+              adjust confidently to their new homes.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <img
+              src="https://images.unsplash.com/photo-1599302761127-e3ed900207fd?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Dog matching"
+            />
+            <h3>Careful Matching</h3>
+            <p>
+              We match dogs with adopters based on lifestyle, experience, and
+              needs to ensure lasting bonds.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <img
+              src="https://images.unsplash.com/photo-1584015437353-4dd19e892ae9?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Support"
+            />
+            <h3>Lifetime Support</h3>
+            <p>
+              Adoption doesn’t end at pickup — we provide ongoing guidance,
+              training tips, and support whenever needed.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- DOGS -->
+      <section id="dogs">
+        <span class="section-badge">Available Dogs</span>
+        <h2>Meet Our Dogs</h2>
+        <p>Each dog has a unique personality waiting to be discovered.</p>
+
+        <div class="dogs-grid">
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=101" alt="Buddy" />
+            <h3>Buddy</h3>
+            <span>2 years old</span>
+            <p>Playful and friendly.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <!-- LUNA – SINGLE DOG IMAGE -->
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=202" alt="Luna" />
+            <h3>Luna</h3>
+            <span>1 year old</span>
+            <p>Gentle and affectionate.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=203" alt="Max" />
+            <h3>Max</h3>
+            <span>4 years old</span>
+            <p>Calm, loyal, and loving.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=40" alt="Daisy" />
+            <h3>Daisy</h3>
+            <span>3 years old</span>
+            <p>Energetic and curious.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=3" alt="Charlie" />
+            <h3>Charlie</h3>
+            <span>5 years old</span>
+            <p>Gentle and family-friendly.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=60" alt="Bella" />
+            <h3>Bella</h3>
+            <span>2 years old</span>
+            <p>Smart and eager to learn.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=70" alt="Rocky" />
+            <h3>Rocky</h3>
+            <span>3 years old</span>
+            <p>Confident and playful.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=80" alt="Milo" />
+            <h3>Milo</h3>
+            <span>1 year old</span>
+            <p>Joyful and full of energy.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=74" alt="Ruby" />
+            <h3>Ruby</h3>
+            <span>4 years old</span>
+            <p>Quiet, loving companion.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=111" alt="Oscar" />
+            <h3>Oscar</h3>
+            <span>6 years old</span>
+            <p>Wise, calm, and loyal.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=222" alt="Nala" />
+            <h3>Nala</h3>
+            <span>2 years old</span>
+            <p>Curious and affectionate.</p>
+            <button>Adopt Me</button>
+          </article>
+
+          <article class="dog-card">
+            <img src="https://placedog.net/500/280?id=33" alt="Leo" />
+            <h3>Leo</h3>
+            <span>3 years old</span>
+            <p>Friendly and adventurous.</p>
+            <button>Adopt Me</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="card">
+        <span class="section-badge">Get In Touch</span>
+        <h2>Contact Us</h2>
+        <p>Ready to adopt or have questions? Reach out today.</p>
+
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>© 2026 PawHome Dog Adoption Agency</footer>
+
+    <!-- THEME TOGGLE SCRIPT -->
+    <script>
+      const btn = document.getElementById("theme-toggle");
+      const body = document.body;
+
+      const saved = localStorage.getItem("theme");
+      if (saved) {
+        body.className = saved;
+        btn.textContent = saved === "dark" ? "☀️" : "🌙";
+      }
+
+      btn.onclick = () => {
+        const dark = body.classList.toggle("dark");
+        body.classList.toggle("light", !dark);
+        localStorage.setItem("theme", dark ? "dark" : "light");
+        btn.textContent = dark ? "☀️" : "🌙";
+      };
+    </script>
+  </body>
+</html>
